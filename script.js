@@ -22,6 +22,7 @@ const customers = [
        res.send('Welcome to Rajesh and Kichus Rest API');
    });
    
+   //Get all the customers
    app.get('/api/customers',(req,res) => {
        res.send(customers);
    });
