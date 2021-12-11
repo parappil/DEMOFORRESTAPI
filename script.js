@@ -46,6 +46,6 @@ const customers = [
 
 
 
-
+//Following code shows that the process is running in the port mentioned
 const port = process.env.port || 8081;
 app.listen(port, () => console.log(`Listening on port ${port}..`));
